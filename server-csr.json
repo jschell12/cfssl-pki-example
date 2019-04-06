@@ -1,0 +1,16 @@
+{
+  "CN": "example-server",
+  "key": {
+    "algo": "rsa",
+    "size": 2048
+  },
+  "names": [
+     {
+       "C": "US",
+       "L": "Anytown",
+       "O": "server",
+       "OU": "special-org-unit",
+       "ST": "CT"
+     }
+  ]
+}
