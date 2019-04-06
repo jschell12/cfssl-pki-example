@@ -77,7 +77,7 @@ $ cfssl gencert -config=request-profile.json -hostname=127.0.0.1 -tls-remote-ca 
 2019/04/06 12:03:58 [INFO] Using trusted CA from tls-remote-ca: server.pem
 ```
 
- Observe certificate contents
+ Observe certificate contents:
 
 ```sh
 openssl x509 -in root-ca.pem -text -noout
